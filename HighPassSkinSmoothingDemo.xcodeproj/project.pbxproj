@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE91B39F1FBFE11C004022FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE91B39E1FBFE11C004022FD /* AppDelegate.m */; };
+		BE91B3A21FBFE11C004022FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE91B3A11FBFE11C004022FD /* ViewController.m */; };
+		BE91B3A51FBFE11C004022FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE91B3A31FBFE11C004022FD /* Main.storyboard */; };
+		BE91B3A71FBFE11C004022FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE91B3A61FBFE11C004022FD /* Assets.xcassets */; };
+		BE91B3AA1FBFE11C004022FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE91B3A81FBFE11C004022FD /* LaunchScreen.storyboard */; };
+		BE91B3AD1FBFE11C004022FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE91B3AC1FBFE11C004022FD /* main.m */; };
+		BE91B3B71FBFE11C004022FD /* HighPassSkinSmoothingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE91B3B61FBFE11C004022FD /* HighPassSkinSmoothingDemoTests.m */; };
+		BE91B3C21FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE91B3C11FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE91B3B31FBFE11C004022FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE91B3921FBFE11C004022FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE91B3991FBFE11C004022FD;
+			remoteInfo = HighPassSkinSmoothingDemo;
+		};
+		BE91B3BE1FBFE11C004022FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE91B3921FBFE11C004022FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE91B3991FBFE11C004022FD;
+			remoteInfo = HighPassSkinSmoothingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE91B39A1FBFE11C004022FD /* HighPassSkinSmoothingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighPassSkinSmoothingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE91B39D1FBFE11C004022FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE91B39E1FBFE11C004022FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE91B3A01FBFE11C004022FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE91B3A11FBFE11C004022FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE91B3A41FBFE11C004022FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE91B3A61FBFE11C004022FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE91B3A91FBFE11C004022FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE91B3AB1FBFE11C004022FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE91B3AC1FBFE11C004022FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE91B3B21FBFE11C004022FD /* HighPassSkinSmoothingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighPassSkinSmoothingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE91B3B61FBFE11C004022FD /* HighPassSkinSmoothingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HighPassSkinSmoothingDemoTests.m; sourceTree = "<group>"; };
+		BE91B3B81FBFE11C004022FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE91B3BD1FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighPassSkinSmoothingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE91B3C11FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HighPassSkinSmoothingDemoUITests.m; sourceTree = "<group>"; };
+		BE91B3C31FBFE11C004022FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE91B3971FBFE11C004022FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE91B3AF1FBFE11C004022FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE91B3BA1FBFE11C004022FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE91B3911FBFE11C004022FD = {
+			isa = PBXGroup;
+			children = (
+				BE91B39C1FBFE11C004022FD /* HighPassSkinSmoothingDemo */,
+				BE91B3B51FBFE11C004022FD /* HighPassSkinSmoothingDemoTests */,
+				BE91B3C01FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests */,
+				BE91B39B1FBFE11C004022FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE91B39B1FBFE11C004022FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE91B39A1FBFE11C004022FD /* HighPassSkinSmoothingDemo.app */,
+				BE91B3B21FBFE11C004022FD /* HighPassSkinSmoothingDemoTests.xctest */,
+				BE91B3BD1FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE91B39C1FBFE11C004022FD /* HighPassSkinSmoothingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BE91B39D1FBFE11C004022FD /* AppDelegate.h */,
+				BE91B39E1FBFE11C004022FD /* AppDelegate.m */,
+				BE91B3A01FBFE11C004022FD /* ViewController.h */,
+				BE91B3A11FBFE11C004022FD /* ViewController.m */,
+				BE91B3A31FBFE11C004022FD /* Main.storyboard */,
+				BE91B3A61FBFE11C004022FD /* Assets.xcassets */,
+				BE91B3A81FBFE11C004022FD /* LaunchScreen.storyboard */,
+				BE91B3AB1FBFE11C004022FD /* Info.plist */,
+				BE91B3AC1FBFE11C004022FD /* main.m */,
+			);
+			path = HighPassSkinSmoothingDemo;
+			sourceTree = "<group>";
+		};
+		BE91B3B51FBFE11C004022FD /* HighPassSkinSmoothingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE91B3B61FBFE11C004022FD /* HighPassSkinSmoothingDemoTests.m */,
+				BE91B3B81FBFE11C004022FD /* Info.plist */,
+			);
+			path = HighPassSkinSmoothingDemoTests;
+			sourceTree = "<group>";
+		};
+		BE91B3C01FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE91B3C11FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests.m */,
+				BE91B3C31FBFE11C004022FD /* Info.plist */,
+			);
+			path = HighPassSkinSmoothingDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE91B3991FBFE11C004022FD /* HighPassSkinSmoothingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE91B3C61FBFE11C004022FD /* Build configuration list for PBXNativeTarget "HighPassSkinSmoothingDemo" */;
+			buildPhases = (
+				BE91B3961FBFE11C004022FD /* Sources */,
+				BE91B3971FBFE11C004022FD /* Frameworks */,
+				BE91B3981FBFE11C004022FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HighPassSkinSmoothingDemo;
+			productName = HighPassSkinSmoothingDemo;
+			productReference = BE91B39A1FBFE11C004022FD /* HighPassSkinSmoothingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE91B3B11FBFE11C004022FD /* HighPassSkinSmoothingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE91B3C91FBFE11C004022FD /* Build configuration list for PBXNativeTarget "HighPassSkinSmoothingDemoTests" */;
+			buildPhases = (
+				BE91B3AE1FBFE11C004022FD /* Sources */,
+				BE91B3AF1FBFE11C004022FD /* Frameworks */,
+				BE91B3B01FBFE11C004022FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE91B3B41FBFE11C004022FD /* PBXTargetDependency */,
+			);
+			name = HighPassSkinSmoothingDemoTests;
+			productName = HighPassSkinSmoothingDemoTests;
+			productReference = BE91B3B21FBFE11C004022FD /* HighPassSkinSmoothingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE91B3BC1FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE91B3CC1FBFE11C004022FD /* Build configuration list for PBXNativeTarget "HighPassSkinSmoothingDemoUITests" */;
+			buildPhases = (
+				BE91B3B91FBFE11C004022FD /* Sources */,
+				BE91B3BA1FBFE11C004022FD /* Frameworks */,
+				BE91B3BB1FBFE11C004022FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE91B3BF1FBFE11C004022FD /* PBXTargetDependency */,
+			);
+			name = HighPassSkinSmoothingDemoUITests;
+			productName = HighPassSkinSmoothingDemoUITests;
+			productReference = BE91B3BD1FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE91B3921FBFE11C004022FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Huynh Phuc";
+				TargetAttributes = {
+					BE91B3991FBFE11C004022FD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BE91B3B11FBFE11C004022FD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE91B3991FBFE11C004022FD;
+					};
+					BE91B3BC1FBFE11C004022FD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE91B3991FBFE11C004022FD;
+					};
+				};
+			};
+			buildConfigurationList = BE91B3951FBFE11C004022FD /* Build configuration list for PBXProject "HighPassSkinSmoothingDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE91B3911FBFE11C004022FD;
+			productRefGroup = BE91B39B1FBFE11C004022FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE91B3991FBFE11C004022FD /* HighPassSkinSmoothingDemo */,
+				BE91B3B11FBFE11C004022FD /* HighPassSkinSmoothingDemoTests */,
+				BE91B3BC1FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE91B3981FBFE11C004022FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE91B3AA1FBFE11C004022FD /* LaunchScreen.storyboard in Resources */,
+				BE91B3A71FBFE11C004022FD /* Assets.xcassets in Resources */,
+				BE91B3A51FBFE11C004022FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE91B3B01FBFE11C004022FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE91B3BB1FBFE11C004022FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE91B3961FBFE11C004022FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE91B3A21FBFE11C004022FD /* ViewController.m in Sources */,
+				BE91B3AD1FBFE11C004022FD /* main.m in Sources */,
+				BE91B39F1FBFE11C004022FD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE91B3AE1FBFE11C004022FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE91B3B71FBFE11C004022FD /* HighPassSkinSmoothingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE91B3B91FBFE11C004022FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE91B3C21FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE91B3B41FBFE11C004022FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE91B3991FBFE11C004022FD /* HighPassSkinSmoothingDemo */;
+			targetProxy = BE91B3B31FBFE11C004022FD /* PBXContainerItemProxy */;
+		};
+		BE91B3BF1FBFE11C004022FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE91B3991FBFE11C004022FD /* HighPassSkinSmoothingDemo */;
+			targetProxy = BE91B3BE1FBFE11C004022FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE91B3A31FBFE11C004022FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE91B3A41FBFE11C004022FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE91B3A81FBFE11C004022FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE91B3A91FBFE11C004022FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE91B3C41FBFE11C004022FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE91B3C51FBFE11C004022FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE91B3C71FBFE11C004022FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WU53KX8R8A;
+				INFOPLIST_FILE = HighPassSkinSmoothingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htsi.HighPassSkinSmoothingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE91B3C81FBFE11C004022FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WU53KX8R8A;
+				INFOPLIST_FILE = HighPassSkinSmoothingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htsi.HighPassSkinSmoothingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE91B3CA1FBFE11C004022FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WU53KX8R8A;
+				INFOPLIST_FILE = HighPassSkinSmoothingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htsi.HighPassSkinSmoothingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HighPassSkinSmoothingDemo.app/HighPassSkinSmoothingDemo";
+			};
+			name = Debug;
+		};
+		BE91B3CB1FBFE11C004022FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WU53KX8R8A;
+				INFOPLIST_FILE = HighPassSkinSmoothingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htsi.HighPassSkinSmoothingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HighPassSkinSmoothingDemo.app/HighPassSkinSmoothingDemo";
+			};
+			name = Release;
+		};
+		BE91B3CD1FBFE11C004022FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WU53KX8R8A;
+				INFOPLIST_FILE = HighPassSkinSmoothingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htsi.HighPassSkinSmoothingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HighPassSkinSmoothingDemo;
+			};
+			name = Debug;
+		};
+		BE91B3CE1FBFE11C004022FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WU53KX8R8A;
+				INFOPLIST_FILE = HighPassSkinSmoothingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htsi.HighPassSkinSmoothingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HighPassSkinSmoothingDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE91B3951FBFE11C004022FD /* Build configuration list for PBXProject "HighPassSkinSmoothingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE91B3C41FBFE11C004022FD /* Debug */,
+				BE91B3C51FBFE11C004022FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE91B3C61FBFE11C004022FD /* Build configuration list for PBXNativeTarget "HighPassSkinSmoothingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE91B3C71FBFE11C004022FD /* Debug */,
+				BE91B3C81FBFE11C004022FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE91B3C91FBFE11C004022FD /* Build configuration list for PBXNativeTarget "HighPassSkinSmoothingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE91B3CA1FBFE11C004022FD /* Debug */,
+				BE91B3CB1FBFE11C004022FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE91B3CC1FBFE11C004022FD /* Build configuration list for PBXNativeTarget "HighPassSkinSmoothingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE91B3CD1FBFE11C004022FD /* Debug */,
+				BE91B3CE1FBFE11C004022FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE91B3921FBFE11C004022FD /* Project object */;
+}
