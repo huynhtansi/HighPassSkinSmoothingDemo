@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F12DE71253661911D4D1B00 /* libPods-HighPassSkinSmoothingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF5FB39744B1AC800D25682 /* libPods-HighPassSkinSmoothingDemo.a */; };
+		78BA2EF5EED85E724D45CCA9 /* libPods-HighPassSkinSmoothingDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BDA8E9FD0A9B2F8AE1B424 /* libPods-HighPassSkinSmoothingDemoTests.a */; };
 		BE91B39F1FBFE11C004022FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE91B39E1FBFE11C004022FD /* AppDelegate.m */; };
 		BE91B3A21FBFE11C004022FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE91B3A11FBFE11C004022FD /* ViewController.m */; };
 		BE91B3A51FBFE11C004022FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE91B3A31FBFE11C004022FD /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		BE91B3AD1FBFE11C004022FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE91B3AC1FBFE11C004022FD /* main.m */; };
 		BE91B3B71FBFE11C004022FD /* HighPassSkinSmoothingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE91B3B61FBFE11C004022FD /* HighPassSkinSmoothingDemoTests.m */; };
 		BE91B3C21FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE91B3C11FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests.m */; };
+		BE91B3D11FBFE8B8004022FD /* DefaultCIContextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE91B3D01FBFE8B8004022FD /* DefaultCIContextViewController.m */; };
+		CE6BA3B9AB9550520DCE1A67 /* libPods-HighPassSkinSmoothingDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B367B34BB807172E6D79BC /* libPods-HighPassSkinSmoothingDemoUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41D7E080E54C580EB126E33C /* Pods-HighPassSkinSmoothingDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighPassSkinSmoothingDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HighPassSkinSmoothingDemoTests/Pods-HighPassSkinSmoothingDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56DF66926928BABFF891972A /* Pods-HighPassSkinSmoothingDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighPassSkinSmoothingDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HighPassSkinSmoothingDemoTests/Pods-HighPassSkinSmoothingDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		67BDA8E9FD0A9B2F8AE1B424 /* libPods-HighPassSkinSmoothingDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HighPassSkinSmoothingDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69065F16633FBBEEB433198B /* Pods-HighPassSkinSmoothingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighPassSkinSmoothingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HighPassSkinSmoothingDemo/Pods-HighPassSkinSmoothingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8D46ECC87BD5647B5E5A20FC /* Pods-HighPassSkinSmoothingDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighPassSkinSmoothingDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HighPassSkinSmoothingDemoUITests/Pods-HighPassSkinSmoothingDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9803BDDA21D3C4C8FB1C30D9 /* Pods-HighPassSkinSmoothingDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighPassSkinSmoothingDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HighPassSkinSmoothingDemoUITests/Pods-HighPassSkinSmoothingDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A54CC63269B0E1608242756D /* Pods-HighPassSkinSmoothingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighPassSkinSmoothingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HighPassSkinSmoothingDemo/Pods-HighPassSkinSmoothingDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BE91B39A1FBFE11C004022FD /* HighPassSkinSmoothingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighPassSkinSmoothingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE91B39D1FBFE11C004022FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE91B39E1FBFE11C004022FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,10 @@
 		BE91B3BD1FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighPassSkinSmoothingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE91B3C11FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HighPassSkinSmoothingDemoUITests.m; sourceTree = "<group>"; };
 		BE91B3C31FBFE11C004022FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE91B3CF1FBFE8B8004022FD /* DefaultCIContextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultCIContextViewController.h; sourceTree = "<group>"; };
+		BE91B3D01FBFE8B8004022FD /* DefaultCIContextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultCIContextViewController.m; sourceTree = "<group>"; };
+		C6B367B34BB807172E6D79BC /* libPods-HighPassSkinSmoothingDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HighPassSkinSmoothingDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF5FB39744B1AC800D25682 /* libPods-HighPassSkinSmoothingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HighPassSkinSmoothingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F12DE71253661911D4D1B00 /* libPods-HighPassSkinSmoothingDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BA2EF5EED85E724D45CCA9 /* libPods-HighPassSkinSmoothingDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +89,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6BA3B9AB9550520DCE1A67 /* libPods-HighPassSkinSmoothingDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B895A16D8FD49080D4691B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCF5FB39744B1AC800D25682 /* libPods-HighPassSkinSmoothingDemo.a */,
+				67BDA8E9FD0A9B2F8AE1B424 /* libPods-HighPassSkinSmoothingDemoTests.a */,
+				C6B367B34BB807172E6D79BC /* libPods-HighPassSkinSmoothingDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE91B3911FBFE11C004022FD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				BE91B3B51FBFE11C004022FD /* HighPassSkinSmoothingDemoTests */,
 				BE91B3C01FBFE11C004022FD /* HighPassSkinSmoothingDemoUITests */,
 				BE91B39B1FBFE11C004022FD /* Products */,
+				FFB0410BF46EF918CFD612BC /* Pods */,
+				4B895A16D8FD49080D4691B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +140,8 @@
 				BE91B3A81FBFE11C004022FD /* LaunchScreen.storyboard */,
 				BE91B3AB1FBFE11C004022FD /* Info.plist */,
 				BE91B3AC1FBFE11C004022FD /* main.m */,
+				BE91B3CF1FBFE8B8004022FD /* DefaultCIContextViewController.h */,
+				BE91B3D01FBFE8B8004022FD /* DefaultCIContextViewController.m */,
 			);
 			path = HighPassSkinSmoothingDemo;
 			sourceTree = "<group>";
@@ -132,6 +164,19 @@
 			path = HighPassSkinSmoothingDemoUITests;
 			sourceTree = "<group>";
 		};
+		FFB0410BF46EF918CFD612BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69065F16633FBBEEB433198B /* Pods-HighPassSkinSmoothingDemo.debug.xcconfig */,
+				A54CC63269B0E1608242756D /* Pods-HighPassSkinSmoothingDemo.release.xcconfig */,
+				41D7E080E54C580EB126E33C /* Pods-HighPassSkinSmoothingDemoTests.debug.xcconfig */,
+				56DF66926928BABFF891972A /* Pods-HighPassSkinSmoothingDemoTests.release.xcconfig */,
+				8D46ECC87BD5647B5E5A20FC /* Pods-HighPassSkinSmoothingDemoUITests.debug.xcconfig */,
+				9803BDDA21D3C4C8FB1C30D9 /* Pods-HighPassSkinSmoothingDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE91B3C61FBFE11C004022FD /* Build configuration list for PBXNativeTarget "HighPassSkinSmoothingDemo" */;
 			buildPhases = (
+				5AC0D544A70C4E2A5B1E2BC5 /* [CP] Check Pods Manifest.lock */,
 				BE91B3961FBFE11C004022FD /* Sources */,
 				BE91B3971FBFE11C004022FD /* Frameworks */,
 				BE91B3981FBFE11C004022FD /* Resources */,
+				2EDD90197D448FE1CCC134E0 /* [CP] Embed Pods Frameworks */,
+				01B5A24955A4969C41543381 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE91B3C91FBFE11C004022FD /* Build configuration list for PBXNativeTarget "HighPassSkinSmoothingDemoTests" */;
 			buildPhases = (
+				DB5C2C8B7A4C2A3B7A71FEF7 /* [CP] Check Pods Manifest.lock */,
 				BE91B3AE1FBFE11C004022FD /* Sources */,
 				BE91B3AF1FBFE11C004022FD /* Frameworks */,
 				BE91B3B01FBFE11C004022FD /* Resources */,
+				19B4BD504FDBF3194F6DC6C8 /* [CP] Embed Pods Frameworks */,
+				CE9B645211DE9AD16B36A3DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE91B3CC1FBFE11C004022FD /* Build configuration list for PBXNativeTarget "HighPassSkinSmoothingDemoUITests" */;
 			buildPhases = (
+				9C1DB7049CECD6D10DB98574 /* [CP] Check Pods Manifest.lock */,
 				BE91B3B91FBFE11C004022FD /* Sources */,
 				BE91B3BA1FBFE11C004022FD /* Frameworks */,
 				BE91B3BB1FBFE11C004022FD /* Resources */,
+				AA7ED617A49554F9EFE523C1 /* [CP] Embed Pods Frameworks */,
+				225846A0C5FD5EA15A277297 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,11 +314,181 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01B5A24955A4969C41543381 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HighPassSkinSmoothingDemo/Pods-HighPassSkinSmoothingDemo-resources.sh",
+				"${PODS_ROOT}/Vivid/Sources/YUCIBilateralFilter.cikernel",
+				"${PODS_ROOT}/Vivid/Sources/YUCIBlobsGenerator.cikernel",
+				"${PODS_ROOT}/Vivid/Sources/YUCICLAHE.cikernel",
+				"${PODS_ROOT}/Vivid/Sources/YUCIColorLookup.cikernel",
+				"${PODS_ROOT}/Vivid/Sources/YUCIColorLookupTableDefault.png",
+				"${PODS_ROOT}/Vivid/Sources/YUCICrossZoomTransition.cikernel",
+				"${PODS_ROOT}/Vivid/Sources/YUCIFilmBurnTransition.cikernel",
+				"${PODS_ROOT}/Vivid/Sources/YUCIFlashTransition.cikernel",
+				"${PODS_ROOT}/Vivid/Sources/YUCIFXAA.cikernel",
+				"${PODS_ROOT}/Vivid/Sources/YUCIHSLToRGB.cikernel",
+				"${PODS_ROOT}/Vivid/Sources/YUCIReflectedTile.cikernel",
+				"${PODS_ROOT}/Vivid/Sources/YUCIRGBToHSL.cikernel",
+				"${PODS_ROOT}/Vivid/Sources/YUCIRGBToneCurve.cikernel",
+				"${PODS_ROOT}/Vivid/Sources/YUCISkyGenerator.cikernel",
+				"${PODS_ROOT}/Vivid/Sources/YUCIStarfieldGenerator.cikernel",
+				"${PODS_ROOT}/Vivid/Sources/YUCISurfaceBlur.cikernel",
+				"${PODS_ROOT}/Vivid/Sources/YUCITriangularPixellate.cikernel",
+				"${PODS_ROOT}/../YUCIHighPassSkinSmoothing/Sources/YUCIGreenBlueChannelOverlayBlend.cikernel",
+				"${PODS_ROOT}/../YUCIHighPassSkinSmoothing/Sources/YUCIHighPass.cikernel",
+				"${PODS_ROOT}/../YUCIHighPassSkinSmoothing/Sources/YUCIHighPassSkinSmoothingMaskBoost.cikernel",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HighPassSkinSmoothingDemo/Pods-HighPassSkinSmoothingDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19B4BD504FDBF3194F6DC6C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HighPassSkinSmoothingDemoTests/Pods-HighPassSkinSmoothingDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		225846A0C5FD5EA15A277297 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HighPassSkinSmoothingDemoUITests/Pods-HighPassSkinSmoothingDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EDD90197D448FE1CCC134E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HighPassSkinSmoothingDemo/Pods-HighPassSkinSmoothingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AC0D544A70C4E2A5B1E2BC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HighPassSkinSmoothingDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C1DB7049CECD6D10DB98574 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HighPassSkinSmoothingDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA7ED617A49554F9EFE523C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HighPassSkinSmoothingDemoUITests/Pods-HighPassSkinSmoothingDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE9B645211DE9AD16B36A3DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HighPassSkinSmoothingDemoTests/Pods-HighPassSkinSmoothingDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB5C2C8B7A4C2A3B7A71FEF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HighPassSkinSmoothingDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE91B3961FBFE11C004022FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE91B3D11FBFE8B8004022FD /* DefaultCIContextViewController.m in Sources */,
 				BE91B3A21FBFE11C004022FD /* ViewController.m in Sources */,
 				BE91B3AD1FBFE11C004022FD /* main.m in Sources */,
 				BE91B39F1FBFE11C004022FD /* AppDelegate.m in Sources */,
@@ -428,6 +652,7 @@
 		};
 		BE91B3C71FBFE11C004022FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69065F16633FBBEEB433198B /* Pods-HighPassSkinSmoothingDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +667,7 @@
 		};
 		BE91B3C81FBFE11C004022FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54CC63269B0E1608242756D /* Pods-HighPassSkinSmoothingDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +682,7 @@
 		};
 		BE91B3CA1FBFE11C004022FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D7E080E54C580EB126E33C /* Pods-HighPassSkinSmoothingDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +698,7 @@
 		};
 		BE91B3CB1FBFE11C004022FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DF66926928BABFF891972A /* Pods-HighPassSkinSmoothingDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +714,7 @@
 		};
 		BE91B3CD1FBFE11C004022FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D46ECC87BD5647B5E5A20FC /* Pods-HighPassSkinSmoothingDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WU53KX8R8A;
@@ -500,6 +729,7 @@
 		};
 		BE91B3CE1FBFE11C004022FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9803BDDA21D3C4C8FB1C30D9 /* Pods-HighPassSkinSmoothingDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WU53KX8R8A;

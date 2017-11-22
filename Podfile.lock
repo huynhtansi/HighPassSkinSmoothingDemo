@@ -1,0 +1,19 @@
+PODS:
+  - Vivid (0.9)
+  - YUCIHighPassSkinSmoothing (1.4):
+    - Vivid
+
+DEPENDENCIES:
+  - YUCIHighPassSkinSmoothing (from `YUCIHighPassSkinSmoothing`)
+
+EXTERNAL SOURCES:
+  YUCIHighPassSkinSmoothing:
+    :path: YUCIHighPassSkinSmoothing
+
+SPEC CHECKSUMS:
+  Vivid: 0fde7409beac71224deb151dd78f98a5bb860497
+  YUCIHighPassSkinSmoothing: 8418fd1bf605ec22b647c57745b863b352f72097
+
+PODFILE CHECKSUM: f460178d09798b1182d90cc154841365e2bc6701
+
+COCOAPODS: 1.3.1
